@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+
+.container {
+	margin: 0px;
+}
+
+nav {
+	background-color: silver;
+	font-family: arial;
+	font-size: 20px;
+	height: 50px;
+	margin: 10px;
+	position: fixed;
+	width: 100%;
+}
+
+nav p {
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+nav ul {
+	display: inline-block;
+	list-style: none;
+	float: right
+}
+
+nav li {
+	display: inline-block;
+	float: right;
+	margin-right: 15px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+nav a {
+	text-decoration: none;
+}
