@@ -1,19 +1,62 @@
 * {
   margin: 0;
+  font-family: arial;
 }
 
 .container {
-	margin: 0px;
+	background-color: silver;
+	font-size: 20px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+
+.box-border {
+	border: 1px solid silver;
+}
+
+.search {
+	margin-top: 80px;
+	margin-left: 80px;
+}
+
+.button {
+	border-radius: 3px;
+	display: inline-block;
+	width: 26px;
+	vertical-align: middle;
+}
+
+.pages {
+	margin-top: 30px;
+	margin-left:80px;
+}
+
+.results {
+	margin-top: 60px;
+	margin-left: 80px;
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+}
+
+form {
+	display: inline-block;
+}
+
+input {
+	width: 450px;
+	height: 24px;
+	border: 1px solid silver;
+	border-radius: 3px;
+	padding-left: 4px;
+	color: grey;
 }
 
 nav {
-	background-color: silver;
-	font-family: arial;
-	font-size: 20px;
 	height: 50px;
-	margin: 10px;
-	position: fixed;
-	width: 100%;
 }
 
 nav p {
@@ -24,14 +67,13 @@ nav p {
 }
 
 nav ul {
-	display: inline-block;
+	display: block;
 	list-style: none;
 	float: right
 }
 
 nav li {
 	display: inline-block;
-	float: right;
 	margin-right: 15px;
 	margin-top: 12px;
 	margin-bottom: 12px;
