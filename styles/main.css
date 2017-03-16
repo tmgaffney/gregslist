@@ -3,6 +3,10 @@
   font-family: arial;
 }
 
+a {
+	text-decoration: none;
+}
+
 .container {
 	background-color: silver;
 	font-size: 20px;
@@ -13,46 +17,65 @@
 
 .box-border {
 	border: 1px solid silver;
+	border-radius: 3px;
+}
+
+.left-margin {
+	margin-left: 80px;
 }
 
 .search {
 	margin-top: 80px;
-	margin-left: 80px;
+}
+
+.pages {
+	margin-top: 30px;
+	width: 320px;
+}
+
+.pages-button {
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 15px;
+}
+
+.pages-display {
+  font-size: 16px;
+  padding: 0 30px;
+  padding: 8px 25px;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
 }
 
 .button {
-	border-radius: 3px;
 	display: inline-block;
 	width: 26px;
 	vertical-align: middle;
 }
 
-.pages {
-	margin-top: 30px;
-	margin-left:80px;
+.listings {
+  padding: 0;
+  margin-top: 40px;
 }
 
-.results {
-	margin-top: 60px;
-	margin-left: 80px;
+.listing {
+  list-style: none;
+  margin-bottom: 15px;
 }
 
-label {
-	display: block;
-	margin-bottom: 8px;
+.listing-date, .listing-location {
+  color: #999;
 }
 
-form {
-	display: inline-block;
+.listing-title {
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
-input {
-	width: 450px;
-	height: 24px;
-	border: 1px solid silver;
-	border-radius: 3px;
-	padding-left: 4px;
-	color: grey;
+.search-button {
+  vertical-align: bottom;
 }
 
 nav {
@@ -79,6 +102,25 @@ nav li {
 	margin-bottom: 12px;
 }
 
-nav a {
+/*nav a {
 	text-decoration: none;
+}*/
+
+label {
+	display: block;
+	margin-bottom: 8px;
 }
+
+form {
+	display: inline-block;
+}
+
+input {
+	width: 450px;
+	height: 28px;
+	box-sizing: border-box;
+	padding-left: 4px;
+	color: grey;
+}
+
+
